@@ -36,3 +36,5 @@ installed on your system.
 Thank you for your interest in the Event_Management repository. This project demonstrates the use of Java, JSP, and Servlets for creating
 an interactive and feature-rich event management web application. If you have any questions or suggestions, please don't hesitate to reach out.
 Happy event planning and coding!
+
+![home](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/15451c42-af08-4d0d-bf39-0a89a03b260c)
