@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header class="header">
+		<div class="main">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png"></a></li>
+			</div>
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+		</div>
+					
+		<section>
+			<div class="form-box" >
+				<div class="form-value" >
+				
+					<form action="validateadmin" method="post">
+						<h2>Admin Login</h2>
+						<div class="inputbox">
+							<ion-icon name="mail-outline"></ion-icon>
+							<input type="text" name="unamead"
+							 required="required">
+							<label>User Name</label>  
+						</div>
+						
+						<div class="inputbox">
+							<ion-icon name="lock-closed-outline"></ion-icon>
+							<input type="password" name="upwdadm"
+							 required="required">
+							 <label>Password</label>
+						</div>
+												
+						<button type="submit" class="butt">Log In</button>	
+					</form>
+					
+				</div>			
+			</div>
+		</section>						
+							
+	</header>
+	
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

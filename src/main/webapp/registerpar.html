@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Participant Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>		
+	<header class="header">
+		<div class="main">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png"></a></li>
+			</div>
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>			
+		</div>
+					
+		<section>						
+				<div class="container">
+				
+					<form action="valReg" method="post">
+						<h2>Participant Registration</h2>
+					<div class="content">
+							
+							<div class="inputbox-1">
+								<label>Name</label>
+								<input type="text" name="namereg" placeholder="Enter your Name"
+								  pattern="^[a-zA-Z ]*$" required="required" required title="Only letters and spaces allowed">							 
+							</div>
+														
+							<div class="inputbox-1">
+								<label>User Name</label>
+								<input type="text" name="unamereg" placeholder="Enter your User Name"
+								 required="required"> 
+							</div>
+														
+							<div class="inputbox-1">
+								<label>Password</label>
+								<input type="password" name="upwdreg" placeholder="Enter your Password"
+								 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"								  
+								 required title="Minimum eight characters, at least one uppercase letter,
+								  one lowercase letter, one number and one special character" required="required">		 
+							</div>
+							
+							<div class="inputbox-1">
+								<label>Confirm Password</label>
+								<input type="password" name="conupwdreg" 
+								placeholder="Enter your Password to confirm" required="required">							 
+							</div>							
+						
+							<div class="inputbox-1">
+								<label>Email-Id</label>
+								<input type="text" name="umailreg" placeholder="Enter your email-id"
+								 required="required">							 
+							</div>
+							
+						</div>												
+						
+						<div class="alert">
+							<p>
+								By clicking Sign Up, you agree to our <a href="#">Terms,</a>
+								<a href="#">Privacy Policy,</a> and <a href="#">Cookies Policy.</a>
+								You may receive notifications from us and can opt out any time.
+							</p>
+						</div>
+																		
+						<div class="button-container">
+							<button type="submit">Register</button>
+						</div>
+												
+						<div class="register">
+							<p>If you already have an account <a href="parlogin.html">Log In</a></p>
+						</div>
+					</form>					
+				</div>									
+		</section>													
+	</header>
+
+	
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	
+</body>
+</html>

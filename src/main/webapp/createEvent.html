@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Event</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href="eventdetails.html"><img src="logo.png"></a></li>
+			</div>
+			<ul>
+				<li class="active"><a href="eventdetails.html">Main Page</a></li>				
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="active1">
+					<form action="SignOut" method="post">
+						<input class="button1" type="submit" value="SignOut">
+					</form>
+				</li>
+			</ul>
+		</div>
+		
+		<section>						
+				<div class="container">
+				
+					<form action="AddEvent" method="post">
+						<h2>Create Event</h2>
+						<div class="content">
+							
+							<div class="inputbox-1">
+								<label>Event No. : </label>
+								<input type="number" name="eventno"
+								 placeholder="Enter Event no." required="required">							 
+							</div>
+														
+							<div class="inputbox-1">
+								<label>Event Name :</label>
+								<input type="text" name="eventname"
+								 placeholder="Enter Event Name" required="required"> 
+							</div>
+														
+							<div class="inputbox-1">
+								<label>Co-ordinator's Name : </label>
+								<input type="text" name="coname"
+								 placeholder="Enter Co-ordinator Name" required="required">		 
+							</div>
+							
+							<div class="inputbox-1">
+								<label>Co-ordinator's No. : </label>
+								<input type="number" name="cono"
+								 placeholder="Enter cordinator's No." required="required">							 
+							</div>							
+						
+							<div class="inputbox-1">
+								<label>Fee for Registration : </label>
+								<input type="number" name="feereg" step="0.01" min="100"
+								 placeholder="Enter Fees for Registration" required="required">							 
+							</div>
+							
+							<div class="inputbox-1">
+								<label>Venue of Event : </label>
+								<input type="text" name="eventvenue"
+								 placeholder="Enter Venue of Event" required="required">							 
+							</div>
+							
+							<div class="inputbox-1">
+								<label>Date of event : </label>
+								<input type="date" name="eventdate"
+								 placeholder="Enter Event Date" required="required">							 
+							</div>
+						</div>							
+																								
+						<div class="button-container">
+							<button type="submit">Add event</button>
+						</div>
+												
+						<div class="register">
+							<p>If you don't want to create. <a href="eventdetails.html">Main Page</a></p>
+						</div>
+					</form>					
+				</div>									
+		</section>
+					
+	</header>
+</body>
+</html>
