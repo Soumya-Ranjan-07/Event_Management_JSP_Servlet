@@ -38,3 +38,15 @@ an interactive and feature-rich event management web application. If you have an
 Happy event planning and coding!
 
 ![home](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/15451c42-af08-4d0d-bf39-0a89a03b260c)
+
+![log](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/674b3914-efaa-4e4f-8841-86c6fda29a4e)
+
+![Participant registration](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/7cf67682-ec2a-491d-9f03-d8a50995215b)
+
+![View event](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/496da86f-62ab-49a2-ab1d-2149bca7c57a)
+
+![View Participant](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/2f811e29-eeb3-4618-ab32-c718ca16365f)
+
+![register](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/0c43d379-f0f9-4d32-9f44-b4f75eb804c6)
+
+![Login](https://github.com/Soumya-Ranjan-07/Event_Management_JSP_Servlet/assets/130222823/415d7010-d4ac-4634-ae3d-60895b4da766)
