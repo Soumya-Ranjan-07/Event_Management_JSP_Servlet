@@ -1,6 +1,6 @@
 # Event_Management_JSP_Servlet
 
-Event_Management is a Java-based web application that facilitates efficient event planning and management using JavaServer Pages (JSP) and Servlets.
+Event_Management named **EVENTIVE** is a Java-based web application that facilitates efficient event planning and management using JavaServer Pages (JSP) and Servlets.
 This project demonstrates the combination of Java, JSP, and Servlets to create a dynamic and interactive platform for organizing and coordinating various events.
 
 The Event_Management repository showcases a comprehensive event management system that allows users to create, view, update, and delete events.
